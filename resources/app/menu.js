@@ -139,13 +139,13 @@ class MenuBuilder {
                         this.mainWindow.setFullScreen(!this.mainWindow.isFullScreen());
                     }
                 },
-                {
-                    label: messages["developer-tools"],
-                    accelerator: "Alt+Ctrl+I",
-                    click: () => {
-                        this.mainWindow.toggleDevTools();
-                    }
-                }
+                // {
+                //     label: messages["developer-tools"],
+                //     accelerator: "Alt+Ctrl+I",
+                //     click: () => {
+                //         this.mainWindow.toggleDevTools();
+                //     }
+                // }
             ]
         };
         
@@ -158,65 +158,6 @@ class MenuBuilder {
 
     }
 
-    buildDefaultTemplate() {
-        const templateDefault = [
-            {
-                label: "&File",
-                submenu: [
-                    {
-                        label: "&Close",
-                        accelerator: "Ctrl+W",
-                        click: () => {
-                            this.mainWindow.close();
-                        }
-                    }
-                ]
-            },
-            {
-                label: "&View",
-                submenu: [
-                    {
-                        label: "Toggle &Full Screen",
-                        accelerator: "F11",
-                        click: () => {
-                            this.mainWindow.setFullScreen(
-                                !this.mainWindow.isFullScreen()
-                            );
-                        }
-                    }
-                ]
-            },
-            {
-                label: messages["help"],
-                submenu: [
-                    {
-                        label: messages["document"],
-                        click() {
-                            shell.openExternal("http://origingroup.tech/");
-                        }
-                    },
-                    {
-                        label: messages["community"],
-                        click() {
-                            shell.openExternal(
-                                "https://github.com/origingroup/hydrogen/issues"
-                            );
-                        }
-                    },
-                    {
-                        label: messages["search-issues"],
-                        click() {
-                            shell.openExternal(
-                                "https://github.com/origingroup/hydrogen/issues"
-                            );
-                        }
-                    }
-                ]
-            }
-        ];
-
-        return templateDefault;
-    }
 }
 
 module.exports = MenuBuilder;
