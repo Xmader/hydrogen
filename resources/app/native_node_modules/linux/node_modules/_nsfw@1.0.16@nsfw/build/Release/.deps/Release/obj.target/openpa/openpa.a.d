@@ -1,0 +1,1 @@
+cmd_Release/obj.target/openpa/openpa.a := rm -f Release/obj.target/openpa/openpa.a && ar crs Release/obj.target/openpa/openpa.a Release/obj.target/openpa/openpa/src/opa_primitives.o Release/obj.target/openpa/openpa/src/opa_queue.o

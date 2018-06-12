@@ -1,0 +1,13 @@
+{
+  "name": "hydrogen",
+  "productName": "hydrogen",
+  "version": "1.1.10",
+  "description": "Crazy and simple task, node, todo management desktop app",
+  "main": "./main.js",
+  "author": {
+    "name": "6174",
+    "email": "570171025@qq.com",
+    "url": "https://github.com/origingroup/hydrogen"
+  },
+  "license": "MIT"
+}
