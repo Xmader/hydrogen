@@ -61,6 +61,7 @@ function createWindow () {
   landingWindow = new BrowserWindow({
     show: false,
     frame: isDev,
+    icon: path.join(__dirname, 'assets/imgs/logo.png'),
     width: 490,
     height: 400
   })
@@ -78,7 +79,7 @@ function createWindow () {
       show: false
     })
     // 打开窗口的调试工具
-    mainWindow.webContents.openDevTools();
+    // mainWindow.webContents.openDevTools();
 
     mainWindow.once("show", () => {
       landingWindow.hide()
