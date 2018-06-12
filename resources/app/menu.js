@@ -113,7 +113,7 @@ class MenuBuilder {
                     }
                 },
                 {
-                    label: "Toggle Developer Tools",
+                    label: messages["developer-tools"],
                     accelerator: "Alt+Ctrl+I",
                     click: () => {
                         this.mainWindow.toggleDevTools();
@@ -137,6 +137,13 @@ class MenuBuilder {
                     accelerator: "F11",
                     click: () => {
                         this.mainWindow.setFullScreen(!this.mainWindow.isFullScreen());
+                    }
+                },
+                {
+                    label: messages["developer-tools"],
+                    accelerator: "Alt+Ctrl+I",
+                    click: () => {
+                        this.mainWindow.toggleDevTools();
                     }
                 }
             ]
