@@ -48,7 +48,7 @@
 
 ## 下载
 
-[点击下载](https://coding.net/u/xmader/p/hydrogen_linux/git/archive/master)
+[点击下载](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen_linux-master.zip)
 
 
 ## 备注
