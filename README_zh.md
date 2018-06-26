@@ -52,6 +52,12 @@
 
 [点击下载](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen_linux-master.zip)
 
+## 使用
+
+```bash
+$ ./hydrogen
+```
+
 ## 备注
 
 * 仅支持Linux 64位系统

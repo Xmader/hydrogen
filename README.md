@@ -24,6 +24,12 @@ So, I start to work out my own solution -  Hydrogen!  And I hope it can help you
 
 [Download](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen_linux-master.zip)
 
+## Usage
+
+```bash
+$ ./hydrogen
+```
+
 ## Notes
 
 * Only for Linux 64bit OS
