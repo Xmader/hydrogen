@@ -32,9 +32,9 @@ So, I start to work out my own solution -  Hydrogen!  And I hope it can help you
 
 ## With Special Thanks to
 
-[Hydrogen](http://origingroup.tech)
+* [Hydrogen](http://origingroup.tech)
 
-[Electron](https://electronjs.org/)
+* [Electron](https://electronjs.org/)
 
 ---
 

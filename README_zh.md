@@ -60,9 +60,9 @@
 
 ## 特别感谢
 
-[Hydrogen原版](http://origingroup.tech)
+* [Hydrogen原版](http://origingroup.tech)
 
-[Electron](https://electronjs.org/)
+* [Electron](https://electronjs.org/)
 
 ---
 
