@@ -1,5 +1,7 @@
 # Hydrogen for Linux
 
+[English](https://github.com/Xmader/hydrogen_linux) | [中文](https://coding.net/u/xmader/p/hydrogen_linux/git/blob/master/README_zh.md)
+
 > 基于 Git 的 笔记、任务、待办 管理工具 (Linux移植版)
 
 ## 简介
