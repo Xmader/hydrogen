@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hydrogen</title>
+    <style>
+      ::selection {background: transparent;}
+    </style>
+  </head>
+  <body>
+    <div class="landing-page">
+      <img src="./assets/imgs/logo.png" class="logo"/>
+      <div class="loading">
+        <div class="spinner">
+          <div class="double-bounce1"></div>
+          <div class="double-bounce2"></div>
+        </div>
+      </div>
+
+      <div class="branding" id="Brading">
+        “简单，极致，高效”
+      </div>
+
+      <div class="footer">
+        -BY ORIGINGROUP
+      </div>
+
+    </div>
+    <style>
+       html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-rendering: optimizeLegibility;
+       }
+
+      .landing-page {
+        text-align: center;
+        background: #363738;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      .logo {
+        margin: 60px 0 20px 0;
+        width: 100px;
+      }
+
+      .loading {
+        margin-bottom: 40px;
+        text-align: center;
+      }
+        
+      .branding {
+        font-size: 14px;
+        font-weight: normal;
+        color: #DDDEE0;
+      }
+
+      .footer {
+        margin-top: 30px;
+        font-size: 12px;
+        color: #909091;
+      }
+
+    </style>
+
+    <style>
+      .spinner {
+        width: 60px;
+        height: 60px;
+       
+        position: relative;
+        margin: 40px auto;
+      }
+       
+      .double-bounce1, .double-bounce2 {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #2376D6;
+        opacity: 0.6;
+        position: absolute;
+        top: 0;
+        left: 0;
+         
+        -webkit-animation: bounce 2.0s infinite ease-in-out;
+        animation: bounce 2.0s infinite ease-in-out;
+      }
+       
+      .double-bounce2 {
+        -webkit-animation-delay: -1.0s;
+        animation-delay: -1.0s;
+      }
+       
+      @-webkit-keyframes bounce {
+        0%, 100% { -webkit-transform: scale(0.0) }
+        50% { -webkit-transform: scale(1.0) }
+      }
+       
+      @keyframes bounce {
+        0%, 100% {
+          transform: scale(0.0);
+          -webkit-transform: scale(0.0);
+        } 50% {
+          transform: scale(1.0);
+          -webkit-transform: scale(1.0);
+        }
+      }
+    </style>
+  </body>
+
+  <script>
+    var $branding = document.getElementById("Brading")
+    var locale = navigator.language;
+    if (locale != "zh-CN") {
+      $branding.innerText = '"Made for simplist"'
+    }
+  </script>
+</html>
