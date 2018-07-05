@@ -36,11 +36,6 @@ class MenuBuilder {
 
         let template;
 
-        // if (process.platform === "darwin") {
-        //   template = this.buildDarwinTemplate(messages);
-        // } else {
-        //   template = this.buildDefaultTemplate(messages);
-        // }
         template = this.buildTemplate(messages);
 
         const menu = Menu.buildFromTemplate(template);
@@ -146,13 +141,6 @@ class MenuBuilder {
                         this.mainWindow.setFullScreen(!this.mainWindow.isFullScreen());
                     }
                 },
-                // {
-                //     label: messages["developer-tools"],
-                //     accelerator: "Alt+Ctrl+I",
-                //     click: () => {
-                //         this.mainWindow.toggleDevTools();
-                //     }
-                // }
             ]
         };
 
