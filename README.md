@@ -1,8 +1,8 @@
-# Hydrogen for Linux
+# Hydrogen for Linux & Windows
 
-[English](https://github.com/Xmader/hydrogen_linux) | [中文](https://coding.net/u/xmader/p/hydrogen_linux/git/blob/master/README_zh.md)
+[English](https://github.com/Xmader/hydrogen/tree/linux) | [中文](https://coding.net/u/xmader/p/hydrogen/git/blob/linux/README_zh.md)
 
-> A Git Based Task, Note, Todo Management Tool for Linux
+> A Git Based Task, Note, Todo Management Tool for Linux & Windows
 
 ### About
 
@@ -22,19 +22,27 @@ So, I start to work out my own solution -  Hydrogen!  And I hope it can help you
 
 ## Download
 
-[Download](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen_linux-master.zip)
+[for Linux](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen-linux.zip)
+
+[for Windows](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen-windows.zip)
 
 ## Usage
+
+### for Linux
 
 ```bash
 $ ./hydrogen
 ```
 
+### for Windows
+
+Run `hydrogen.exe`.
+
 ## Notes
 
-* Only for Linux 64bit OS
+* Only for 64bit OS
 
-* `Hydrogen for Linux` runs successfully on `Ubuntu Budgie 18.04 LTS (64bit)`
+* `Hydrogen for Linux & Windows` runs successfully on `Ubuntu Budgie 18.04 LTS (64bit)` and `Windows 10 (64bit)` and so on.
 
 ## With Special Thanks to
 

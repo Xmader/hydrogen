@@ -1,8 +1,8 @@
-# Hydrogen for Linux
+# Hydrogen for Linux & Windows
 
-[English](https://github.com/Xmader/hydrogen_linux) | [中文](https://coding.net/u/xmader/p/hydrogen_linux/git/blob/master/README_zh.md)
+[English](https://github.com/Xmader/hydrogen/tree/linux) | [中文](https://coding.net/u/xmader/p/hydrogen/git/blob/linux/README_zh.md)
 
-> 基于 Git 的 笔记、任务、待办 管理工具 (Linux移植版)
+> 基于 Git 的 笔记、任务、待办 管理工具 (Linux和Windows的移植版)
 
 ## 简介
 
@@ -50,19 +50,27 @@
 
 ## 下载
 
-[点击下载](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen_linux-master.zip)
+[Linux版](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen-linux.zip)
+
+[Windows版](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen-windows.zip)
 
 ## 使用
+
+### 针对Linux版
 
 ```bash
 $ ./hydrogen
 ```
 
+### 针对Windows版
+
+双击运行 `hydrogen.exe`
+
 ## 备注
 
-* 仅支持Linux 64位系统
+* 仅支持64位操作系统
 
-* 已在`Ubuntu Budgie 18.04 LTS (64位)`上运行成功，其它Linux系统未测试。
+* 已在`Ubuntu Budgie 18.04 LTS (64位)`和`Windows 10 (64位)`上运行成功，其它操作系统未测试。
 
 ## 特别感谢
 
