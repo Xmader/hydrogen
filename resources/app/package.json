@@ -8,5 +8,8 @@
     "name": "xmader",
     "url": "https://coding.net/u/xmader/p/hydrogen_linux/git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "electron-rebuild": "^1.7.3"
+  }
 }

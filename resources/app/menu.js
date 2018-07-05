@@ -94,7 +94,7 @@ class MenuBuilder {
                 }
             ]
         };
-        
+
         const subMenuViewDev = {
             label: messages["view"],
             submenu: [
@@ -133,6 +133,13 @@ class MenuBuilder {
                 //   }
                 // },
                 {
+                    label: messages["developer-tools"],
+                    accelerator: "Alt+Ctrl+I",
+                    click: () => {
+                        this.mainWindow.toggleDevTools();
+                    }
+                },
+                {
                     label: messages["view-fullscreen"],
                     accelerator: "F11",
                     click: () => {
@@ -148,13 +155,13 @@ class MenuBuilder {
                 // }
             ]
         };
-        
+
 
         const subMenuView = process.env.NODE_ENV === "development"
             ? subMenuViewDev
             : subMenuViewProd;
 
-     return [subMenuAbout, subMenuEdit, subMenuView];
+        return [subMenuAbout, subMenuEdit, subMenuView];
 
     }
 
