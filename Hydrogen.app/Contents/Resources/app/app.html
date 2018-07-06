@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hydrogen</title>
+    <link rel="stylesheet" href="./vendor/antd/antd.css">
+    <link rel="stylesheet" type="text/css" href="./vendor/styles/animate.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/javascript">
+      window.$ = require('./vendor/jquery.min.js');
+
+      window.NativeModules = require("./native_node_modules");
+
+      const path = require("path")
+      function resolveSourcePath() {
+        const s = path.sep;
+        return path.resolve(__dirname)
+      }
+      window.AppSourcePath = resolveSourcePath();
+    </script>
+    <script src="./vendor/localstorage.js"></script>
+    <script src="./vendor/split.js"></script>
+    <script src="./vendor/react/vendors.js"></script>
+    <script>
+      const scripts = [];
+      // Dynamically insert the bundled app script in the renderer process
+      const port = process.env.PORT || 1212;
+      scripts.push(
+        (process.env.HOT)
+          ? 'http://localhost:' + port + '/dist/bundle.js'
+          : './dist/bundle.js'
+      );
+
+      document.write(
+        scripts
+          .map(script => '<script defer src="' + script + '"><\/script>')
+          .join('')
+      );
+    </script>
+  </body>
+</html>
