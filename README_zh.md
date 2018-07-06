@@ -4,6 +4,8 @@
 
 > 基于 Git 的 笔记、任务、待办 管理工具 (Linux和Windows的移植版)
 
+[查看MacOS版](https://coding.net/u/xmader/p/hydrogen/git/tree/darwin)
+
 ## 简介
 
 ### 灵感来源 

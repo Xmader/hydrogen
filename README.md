@@ -4,6 +4,8 @@
 
 > A Git Based Task, Note, Todo Management Tool for Linux & Windows
 
+[Look for MacOS version?](https://github.com/Xmader/hydrogen/tree/darwin)
+
 ### About
 
 So what is Hydrogen? What can you do with it? 
