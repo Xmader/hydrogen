@@ -45,9 +45,10 @@ app.on("quit", (ev) => {
 app.on('activate', (ev, hasVisibleWindows) => {
   if (mainWindow) {
     mainWindow.show()
-  } else {
-    createWindow();
-  }
+  } 
+  // else {
+  //   createWindow();
+  // }
 });
 
 app.on('ready', createWindow);
