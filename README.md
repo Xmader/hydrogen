@@ -9,6 +9,9 @@
 
 [查看Windows和Linux版](https://github.com/Xmader/hydrogen)
 
+## 使用
+
+* 解压后在`hydrogen-darwin`文件夹中找到`Hydrogen.app`,拖到应用里面运行即可
 
 ## v1.2.1 变更
 

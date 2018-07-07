@@ -1,0 +1,19 @@
+{
+    "name": "hydrogen",
+    "productName": "hydrogen",
+    "version": "1.2",
+    "description": "A Git Based Task, Note, Todo Management Tool | 一个基于 Git 的 笔记、任务、待办 管理工具",
+    "main": "./main.js",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/Xmader/hydrogen"
+	},
+    "author": {
+        "name": "xmader",
+        "url": "https://coding.net/u/xmader/p/hydrogen/git"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "electron-rebuild": "^1.7.3"
+    }
+}
