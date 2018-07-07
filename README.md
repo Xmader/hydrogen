@@ -5,7 +5,7 @@
 
 ## 下载
 
-[下载MacOS版](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen-darwin.zip)
+[下载MacOS版](https://xmader.oss-cn-shanghai.aliyuncs.com/Hydrogen-MacOS.zip)
 
 [查看Windows和Linux版](https://github.com/Xmader/hydrogen)
 
