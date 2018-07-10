@@ -15,6 +15,10 @@
 
 ## 更新历史
 
+### v1.2.5 变更
+
+* 修复 https://github.com/origingroup/hydrogen/issues/13 与 https://github.com/origingroup/hydrogen/issues/42 提到的 "/" 工具面板超出编辑区域时部分面板UI无法看到的问题
+
 ### v1.2.3.1 变更 (仅针对MacOS)
 
 * 修复菜单栏中的issues页面链接
