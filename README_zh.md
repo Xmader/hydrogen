@@ -80,6 +80,10 @@ $ ./hydrogen
 
 * [Electron](https://electronjs.org/)
 
+## 开源许可证
+
+MIT
+
 ---
 
 © [Xmader.com](https://www.xmader.com/) & 超猫

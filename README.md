@@ -52,6 +52,10 @@ Run `hydrogen.exe`.
 
 * [Electron](https://electronjs.org/)
 
+## LICENSE
+
+MIT
+
 ---
 
 © [Xmader.com](https://www.xmader.com/)
