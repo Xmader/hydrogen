@@ -175,20 +175,20 @@ class MenuBuilder {
           label: messages["document"],
           click() {
             shell.openExternal(
-              "http://origingroup.tech"
+              "https://github.com/Xmader/hydrogen"
             );
           }
         },
         {
           label: messages["community"],
           click() {
-            shell.openExternal("https://github.com/origingroup/hydrogen/issues");
+            shell.openExternal("https://github.com/Xmader/hydrogen/issues");
           }
         },
         {
           label: messages["search-issues"],
           click() {
-            shell.openExternal("https://github.com/origingroup/hydrogen/issues");
+            shell.openExternal("https://github.com/Xmader/hydrogen/issues");
           }
         }
       ]
