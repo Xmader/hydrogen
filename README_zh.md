@@ -68,6 +68,10 @@ $ ./hydrogen
 
 双击运行 `hydrogen.exe`
 
+## 更新历史
+
+[点我查看](https://github.com/Xmader/hydrogen/tree/darwin#%E6%9B%B4%E6%96%B0%E5%8E%86%E5%8F%B2)
+
 ## 备注
 
 * 仅支持64位操作系统

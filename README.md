@@ -40,6 +40,10 @@ $ ./hydrogen
 
 Run `hydrogen.exe`.
 
+## Update History
+
+[Read Update History](https://github.com/Xmader/hydrogen/tree/darwin#%E6%9B%B4%E6%96%B0%E5%8E%86%E5%8F%B2)
+
 ## Notes
 
 * Only for 64bit OS
