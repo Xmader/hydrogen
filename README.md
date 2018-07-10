@@ -13,11 +13,17 @@
 
 * 解压后在`hydrogen-darwin`文件夹中找到`Hydrogen.app`,拖到应用里面运行即可
 
+## v1.2.3.1 变更 (仅针对MacOS)
+
+* 修复菜单栏中的issues页面链接
+
 ## v1.2.3 变更
 
 * 修复https://github.com/Xmader/hydrogen/issues/1 下载更新时未对应操作系统的问题
 
 * 修复https://github.com/Xmader/hydrogen/issues/1 版本号仍显示1.1.10的问题
+
+<!-- 每次更改版本号需要在Hydrogen.app\Contents\Info.plist中同步更改 -->
 
 ## v1.2.2 变更
 
