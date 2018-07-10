@@ -13,6 +13,12 @@
 
 * 解压后在`hydrogen-darwin`文件夹中找到`Hydrogen.app`,拖到应用里面运行即可
 
+## v1.2.3 变更
+
+* 修复https://github.com/Xmader/hydrogen/issues/1 下载更新时未对应操作系统的问题
+
+* 修复https://github.com/Xmader/hydrogen/issues/1 版本号仍显示1.1.10的问题
+
 ## v1.2.2 变更
 
 * 优化版本号比较的逻辑
