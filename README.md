@@ -3,17 +3,21 @@
 > A Git Based Task, Note, Todo Management Tool<br>
 基于 Git 的 笔记、任务、待办 管理工具
 
-## 下载
+## Download<br>下载
 
-[下载MacOS版](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen-darwin.zip)
+[Download MacOS version <br>下载MacOS版](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen-darwin.zip)
 
-[查看Windows和Linux版](https://github.com/Xmader/hydrogen)
+[View Windows & Linux version <br>查看Windows和Linux版](https://github.com/Xmader/hydrogen)
 
 ## 使用
 
 * 解压后在`hydrogen-darwin`文件夹中找到`Hydrogen.app`,拖到应用里面运行即可
 
 ## 更新历史
+
+### v1.2.6 变更
+
+* 解决https://github.com/Xmader/hydrogen/issues/2 文档输入末尾增加行，滚动条不自动滚动 的问题 
 
 ### v1.2.5 变更
 
