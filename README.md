@@ -15,6 +15,10 @@
 
 ## 更新历史
 
+### v1.2.9 变更
+
+* 解决https://github.com/Xmader/hydrogen/issues/3 每次重新启动Hydrogen都出现使用说明界面的问题, 改成首次启动Hydrogen时才出现使用说明界面
+
 ### v1.2.8 变更
 
 * 支持 https://github.com/origingroup/hydrogen/issues/3 中提到的 使用CTRL-S快捷键快速提交更改
