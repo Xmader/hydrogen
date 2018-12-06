@@ -15,6 +15,11 @@
 
 ## 更新历史
 
+### v1.2.10 变更
+
+* 增加不能删除根任务的提示  
+感谢 @lizhimingmu 的[反馈](https://github.com/Xmader/hydrogen/issues/5)
+
 ### v1.2.9 变更
 
 * 解决https://github.com/Xmader/hydrogen/issues/3 每次重新启动Hydrogen都出现使用说明界面的问题, 改成首次启动Hydrogen时才出现使用说明界面
