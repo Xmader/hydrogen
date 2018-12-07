@@ -24,9 +24,9 @@ So, I start to work out my own solution -  Hydrogen!  And I hope it can help you
 
 ## Download
 
-[for Linux](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen-linux.zip)
+[for Linux](https://coding.net/u/xmader/p/hydrogen/git/archive/linux)
 
-[for Windows](https://xmader.oss-cn-shanghai.aliyuncs.com/hydrogen-windows.zip)
+[for Windows](https://coding.net/u/xmader/p/hydrogen/git/archive/windows)
 
 ## Usage
 
