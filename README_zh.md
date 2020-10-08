@@ -52,9 +52,9 @@
 
 ## 下载
 
-[Linux版](https://coding.net/u/xmader/p/hydrogen/git/archive/linux) | [Github分流](https://github.com/Xmader/hydrogen/archive/linux.zip)
+[Linux版](https://github.com/Xmader/hydrogen/archive/linux.zip)
 
-[Windows版](https://coding.net/u/xmader/p/hydrogen/git/archive/windows) | [Github分流](https://github.com/Xmader/hydrogen/archive/windows.zip)
+[Windows版](https://github.com/Xmader/hydrogen/archive/windows.zip)
 
 ## 使用
 
